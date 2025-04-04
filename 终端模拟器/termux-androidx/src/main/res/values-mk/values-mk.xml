@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="abc_action_bar_home_description" msgid="5976598919945601918">"Движи се кон дома"</string>
+    <string name="abc_action_bar_up_description" msgid="8388173803310557296">"Движи се нагоре"</string>
+    <string name="abc_action_menu_overflow_description" msgid="3937310113216875497">"Повеќе опции"</string>
+    <string name="abc_action_mode_done" msgid="4692188335987374352">"Готово"</string>
+    <string name="abc_activity_chooser_view_see_all" msgid="1189761859438369441">"Прикажи ги сите"</string>
+    <string name="abc_activitychooserview_choose_application" msgid="2165779757652331008">"Избери апликација"</string>
+    <string name="abc_capital_off" msgid="4215997306490295099">"ИСКЛУЧЕНО"</string>
+    <string name="abc_capital_on" msgid="884982626291842264">"ВКЛУЧЕНО"</string>
+    <string name="abc_menu_alt_shortcut_label" msgid="8833365367933412986">"Alt+"</string>
+    <string name="abc_menu_ctrl_shortcut_label" msgid="2223301931652355242">"Ctrl+"</string>
+    <string name="abc_menu_delete_shortcut_label" msgid="838001238306846836">"избриши"</string>
+    <string name="abc_menu_enter_shortcut_label" msgid="7986526966204849475">"Enter"</string>
+    <string name="abc_menu_function_shortcut_label" msgid="375214403600139847">"Function+"</string>
+    <string name="abc_menu_meta_shortcut_label" msgid="4192209724446364286">"Meta+"</string>
+    <string name="abc_menu_shift_shortcut_label" msgid="4741552369836443843">"Shift+"</string>
+    <string name="abc_menu_space_shortcut_label" msgid="5473865519181928982">"вселена"</string>
+    <string name="abc_menu_sym_shortcut_label" msgid="6180552449598693998">"Sym+"</string>
+    <string name="abc_prepend_shortcut_label" msgid="5520303668377388990">"Menu+"</string>
+    <string name="abc_search_hint" msgid="7208076849092622260">"Пребарување…"</string>
+    <string name="abc_searchview_description_clear" msgid="3741173234950517107">"Исчисти барање"</string>
+    <string name="abc_searchview_description_query" msgid="693312494995508443">"Пребарај барање"</string>
+    <string name="abc_searchview_description_search" msgid="3417662926640357176">"Пребарај"</string>
+    <string name="abc_searchview_description_submit" msgid="1486535517437947103">"Испрати барање"</string>
+    <string name="abc_searchview_description_voice" msgid="2293578557972875415">"Гласовно пребарување"</string>
+    <string name="abc_shareactionprovider_share_with" msgid="8875138169939072951">"Сподели со"</string>
+    <string name="abc_shareactionprovider_share_with_application" msgid="9055268688411532828">"Сподели со <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string name="abc_toolbar_collapse_description" msgid="1656852541809559762">"Собери"</string>
+    <string name="search_menu_title" msgid="6264217191555673260">"Пребарај"</string>
+    <string name="copy_toast_msg" msgid="3260749812566568062">"Линкот е копиран во привремена меморија"</string>
+    <string name="fallback_menu_item_copy_link" msgid="4566929209979330987">"Копирај го линкот"</string>
+    <string name="fallback_menu_item_open_in_browser" msgid="3413186855122069269">"Отвори во прелистувач"</string>
+    <string name="fallback_menu_item_share_link" msgid="7145444925855055364">"Сподели линк"</string>
+    <string name="status_bar_notification_info_overflow" msgid="6277540029070332960">"999+"</string>
+    <string name="copy" msgid="3209159573327985035">"Копирај"</string>
+    <string name="expand_button_title" msgid="1234962710353108940">"Напредни"</string>
+    <string name="not_set" msgid="478774118347071097">"Не е поставено"</string>
+    <string name="preference_copied" msgid="7961817945132860002">"„<ns1:g id="SUMMARY">%1$s</ns1:g>“ копирано во привремена меморија."</string>
+    <string name="summary_collapsed_preference_list" msgid="5190123168583152844">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="v7_preference_off" msgid="5138405918326871307">"ИСКЛУЧЕНО"</string>
+    <string name="v7_preference_on" msgid="27351710992731591">"ВКЛУЧЕНО"</string>
+
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново известување</item>
+        <item quantity="other">%d нови известувања</item>
+    </plurals>
+
+    <string name="bottomsheet_action_expand_halfway">Прошири до половина</string>
+    <string name="character_counter_content_description">Внесени се %1$d од %2$d знаци</string>
+    <string name="character_counter_overflowed_content_description">Ограничувањето на знаците надмина %1$d од %2$d</string>
+    <string name="clear_text_end_icon_content_description">Избриши го текстот</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Прикажи паѓачко мени</string>
+    <string name="icon_content_description">Икона за дијалог</string>
+    <string name="item_view_role_description">Картичка</string>
+    <string name="material_clock_toggle_content_description">Изберете претпладне или попладне</string>
+    <string name="material_hour_selection">Изберете час</string>
+    <string name="material_hour_suffix">%1$s часот</string>
+    <string name="material_minute_selection">Избери минути</string>
+    <string name="material_minute_suffix">%1$s минути</string>
+    <string name="material_timepicker_am">пр.</string>
+    <string name="material_timepicker_clock_mode_description">Префрлете се на режимот за часовник за да внесете време.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минута</string>
+    <string name="material_timepicker_pm">по.</string>
+    <string name="material_timepicker_select_time">Изберете време</string>
+    <string name="material_timepicker_text_input_mode_description">Префрлете се на режимот за внесување текст за да внесете време.</string>
+    <string name="mtrl_badge_numberless_content_description">Ново известување</string>
+    <string name="mtrl_chip_close_icon_content_description">Отстрани %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Над %1$d нови известувања</string>
+    <string name="mtrl_picker_a11y_next_month">Промени на следниот месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Промени на претходниот месец</string>
+    <string name="mtrl_picker_announce_current_selection">Тековен избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Изберете датум</string>
+    <string name="mtrl_picker_date_header_unselected">Избран датум</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона со денови: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Неважечки формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Користете: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Погрешен опсег.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Оди на %1$s година</string>
+    <string name="mtrl_picker_out_of_range">Надвор од опсег: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Почетен датум - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - краен датум</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Изберете опсег</string>
+    <string name="mtrl_picker_range_header_unselected">Почетен датум - краен датум</string>
+    <string name="mtrl_picker_save">Зачувај</string>
+    <string name="mtrl_picker_text_input_date_hint">Датум</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Краен датум</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Почетен датум</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Префрли на режим за внесување во календарот</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Допрете за да се префрлите на избирање ден</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Префрли на режим за внесување текст</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Допрете за да се префрлите на избирање година</string>
+    <string name="password_toggle_content_description">Прикажи ја лозинката</string>
+
+</resources>

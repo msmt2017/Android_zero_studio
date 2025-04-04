@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:sharedUserId="io.github.zeroaicy">
+	<application>
+		<!-- MT管理器 -->
+		<activity
+			android:name="bin.mt.file.content.MTDataFilesWakeUpActivity"
+			android:exported="true"
+			android:taskAffinity="${applicationId}.MTDataFilesWakeUp"
+			android:excludeFromRecents="true"
+			android:noHistory="true" />
+		<provider
+			android:name="bin.mt.file.content.MTDataFilesProvider"
+			android:permission="android.permission.MANAGE_DOCUMENTS"
+			android:exported="true"
+			android:authorities="${applicationId}.MTDataFilesProvider"
+			android:grantUriPermissions="true">
+			<intent-filter>
+				<action
+					android:name="android.content.action.DOCUMENTS_PROVIDER" />
+			</intent-filter>
+		</provider>
+	</application>
+</manifest>
+
+

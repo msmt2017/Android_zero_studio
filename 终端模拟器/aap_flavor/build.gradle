@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+
+android {
+	compileSdkVersion 21
+	buildToolsVersion "21.1.0"
+
+	defaultConfig {
+		
+		applicationId "com.aide.termux"
+		minSdkVersion 24
+		targetSdkVersion 28
+		versionCode 118
+		versionName "0.118.0"
+	}
+	productFlavors {
+		aide_termux {
+			applicationId "com.aide.termux"
+		}
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+
+dependencies {
+	compile fileTree(dir: 'libs', include: ['*.jar'])
+	api project(':app')
+	
+}

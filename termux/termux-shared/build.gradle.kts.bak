@@ -1,0 +1,82 @@
+plugins {
+    id("com.android.library")
+    id("kotlin-android")
+}
+
+android {
+    namespace = "com.termux.shared"
+    ndkVersion = BuildConfig.ndkVersion
+
+    // 移除 externalNativeBuild 配置，因为不再编译 C++ 代码
+    // externalNativeBuild {
+    //     ndkBuild {
+    //         path = file("src/main/cpp/Android.mk")
+    //     }
+    // }
+
+    // 配置 JNI 库打包
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+
+    // 指定 JNI 库的源集路径
+    sourceSets {
+        getByName("main") {
+            jniLibs.srcDirs("src/main/jniLibs")
+        }
+    }
+}
+
+dependencies {
+    // AndroidX 核心库（升级至稳定版 1.12.0）
+    implementation("androidx.core:core:1.12.0")
+    implementation("androidx.core:core-ktx:1.12.0")
+    
+    // Material Design（升级至 1.10.0）
+    implementation("com.google.android.material:material:1.10.0")
+    
+    implementation("com.google.guava:guava:guava-32.0.1-jre.jar-jre")
+
+    
+    // Window Manager（升级至稳定版 1.1.0）
+    implementation("androidx.window:window:1.3.0")
+    implementation ("androidx.window:window-java:1.3.0")
+
+    // Markwon 系列库
+    implementation("io.noties.markwon:core:4.6.2")
+    implementation("io.noties.markwon:ext-strikethrough:4.6.2")
+    implementation("io.noties.markwon:linkify:4.6.2")
+    implementation("io.noties.markwon:recycler:4.6.2")
+    
+    // 测试依赖
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    
+    // Desugaring（升级至 2.0.4）
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+    
+    // Termux 相关
+    implementation("com.termux:termux-am-library:v2.0.0")
+    implementation("commons-io:commons-io:2.15.1")
+    implementation("org.lsposed.hiddenapibypass:hiddenapibypass:2.0")
+    
+    // AndroidX 扩展库
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.annotation:annotation:1.7.0")
+    
+implementation(fileTree("libs") { include("*.jar") })
+
+    // 项目模块依赖
+    implementation(project(":common"))
+    implementation(project(":termux:termux-view"))
+    implementation(projects.buildInfo)
+    implementation(projects.preferences)
+    implementation(projects.resources)
+    
+    // 测试模块
+    testImplementation(project(":testing:unit"))
+    testImplementation(project(":testing:android"))
+}

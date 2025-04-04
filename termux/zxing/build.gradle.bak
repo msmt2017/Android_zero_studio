@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.library'
+  //  id 'maven-publish'  // 替代 Bintray 插件[6,7](@ref)
+}
+
+android {
+
+   namespace = "cn.bingoogolapple.qrcode.zxing"
+
+    compileSdk 34
+    defaultConfig { 
+        minSdk 21
+        targetSdk 34
+    }
+}
+
+dependencies {
+    implementation 'com.google.zxing:core:3.4.1'  // 升级 ZXing 版本
+    
+    if (hasProperty("publishAar")) {
+        implementation 'cn.bingoogolapple:bga-qrcode-core:2.2.0'  // 对外暴露 API
+    } else {
+      //  implementation project(':qrcodecore')
+    }
+}

@@ -1,0 +1,12 @@
+// SwitchButton 控件（与第一个配置中的 SwitchButton 实现不同）
+implementation("com.github.zcweng:switch-button:0.0.3@aar")
+
+// Kotlin 协程 Android 扩展
+implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+// 内存泄漏检测库
+implementation("com.squareup.leakcanary:leakcanary-android:2.12")
+
+// LSPosed 隐藏 API 绕过工具
+implementation("org.lsposed.hiddenapibypass:hiddenapibypass:2.0")
+

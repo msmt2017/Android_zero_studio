@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.bingoogolapple.qrcode.core" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+6
+7    <uses-permission android:name="android.permission.CAMERA" />
+7-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:4:5-65
+7-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:4:22-62
+8    <uses-permission android:name="android.permission.FLASHLIGHT" />
+8-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:5:5-69
+8-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:5:22-66
+9
+10    <uses-feature
+10-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:7:5-9:36
+11        android:name="android.hardware.camera.autofocus"
+11-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:8:9-57
+12        android:required="false" />
+12-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:9:9-33
+13    <uses-feature
+13-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:10:5-12:36
+14        android:name="android.hardware.camera.flash"
+14-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:11:9-53
+15        android:required="false" />
+15-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/qrcodecore/src/main/AndroidManifest.xml:12:9-33
+16
+17</manifest>

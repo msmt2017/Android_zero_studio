@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.zp.z_file" >
+5
+6    <uses-sdk android:minSdkVersion="23" />
+7
+8    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+8-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:6:5-80
+8-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:6:22-77
+9    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+9-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:7:5-81
+9-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:7:22-78
+10    <uses-permission
+10-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:8:5-9:39
+11        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+11-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:8:22-79
+12        tools:ignore="ScopedStorage" />
+12-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:9:9-37
+13
+14    <application>
+14-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:11:5-23:19
+15        <activity
+15-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:12:9-13:53
+16            android:name="com.zp.z_file.ui.ZFileQWActivity"
+16-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:12:19-53
+17            android:theme="@style/ZFile_BaseTheme" />
+17-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:13:13-51
+18        <activity
+18-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:14:9-16:54
+19            android:name="com.zp.z_file.ui.ZFileListActivity2"
+19-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:15:13-50
+20            android:theme="@style/ZFile_BaseTheme" />
+20-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:16:13-51
+21        <activity
+21-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:17:9-19:54
+22            android:name="com.zp.z_file.ui.ZFilePicActivity"
+22-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:18:13-48
+23            android:theme="@style/ZFile_BaseTheme" />
+23-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:19:13-51
+24        <activity
+24-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:20:9-22:54
+25            android:name="com.zp.z_file.ui.ZFileVideoPlayActivity"
+25-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:21:13-54
+26            android:theme="@style/ZFile_BaseTheme" />
+26-->/data/data/com.termux/files/home/AndroidIDE-2.7.1-beta/termux/z_file/src/main/AndroidManifest.xml:22:13-51
+27    </application>
+28
+29</manifest>

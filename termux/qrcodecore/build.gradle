@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'  // 关键修复：启用 Kotlin 插件
+
+android {
+    namespace = "cn.bingoogolapple.qrcode.core"
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 34
+    }
+
+
+}
+
+// 发布配置（保持原样）
+if (hasProperty("publishAar")) {
+    apply from: 'https://raw.githubusercontent.com/bingoogolapple/PublishAar/master/jcenter-release.gradle'
+}
